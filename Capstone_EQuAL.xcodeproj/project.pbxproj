@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3372FDB28083D4700215B7A /* QuestionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3372FDA28083D4700215B7A /* QuestionPage.swift */; };
+		18B3B87E28198C43007C0E8C /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B87D28198C43007C0E8C /* Exam.swift */; };
+		18B3B88028198C89007C0E8C /* Que.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B87F28198C89007C0E8C /* Que.swift */; };
+		18B3B88228198D36007C0E8C /* Polling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B88128198D36007C0E8C /* Polling.swift */; };
+		18B3B88428198D4C007C0E8C /* ExamSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B88328198D4C007C0E8C /* ExamSummary.swift */; };
+		18B3B88628198D66007C0E8C /* PollingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B88528198D66007C0E8C /* PollingSession.swift */; };
+		18B3B88828198D79007C0E8C /* ExamPrograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B88728198D79007C0E8C /* ExamPrograms.swift */; };
+		18B3B88A28198D98007C0E8C /* Create Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3B88928198D98007C0E8C /* Create Exam.swift */; };
 		A39E64E827D6DC8000563E84 /* forMilestone4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E64E727D6DC8000563E84 /* forMilestone4App.swift */; };
 		A39E64EA27D6DC8000563E84 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E64E927D6DC8000563E84 /* loginPage.swift */; };
 		A39E64EC27D6DC8000563E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39E64EB27D6DC8000563E84 /* Assets.xcassets */; };
@@ -29,7 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3372FDA28083D4700215B7A /* QuestionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPage.swift; sourceTree = "<group>"; };
+		18B3B87D28198C43007C0E8C /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		18B3B87F28198C89007C0E8C /* Que.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Que.swift; sourceTree = "<group>"; };
+		18B3B88128198D36007C0E8C /* Polling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polling.swift; sourceTree = "<group>"; };
+		18B3B88328198D4C007C0E8C /* ExamSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamSummary.swift; sourceTree = "<group>"; };
+		18B3B88528198D66007C0E8C /* PollingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingSession.swift; sourceTree = "<group>"; };
+		18B3B88728198D79007C0E8C /* ExamPrograms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPrograms.swift; sourceTree = "<group>"; };
+		18B3B88928198D98007C0E8C /* Create Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Exam.swift"; sourceTree = "<group>"; };
 		A39E64E427D6DC8000563E84 /* Capstone_EQuALS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone_EQuALS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39E64E727D6DC8000563E84 /* forMilestone4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forMilestone4App.swift; sourceTree = "<group>"; };
 		A39E64E927D6DC8000563E84 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
@@ -87,7 +99,6 @@
 				A3CE5B2D27D718160040748A /* mainView.swift */,
 				A39E64EB27D6DC8000563E84 /* Assets.xcassets */,
 				A3E89C20281110C600C2BFB3 /* GoogleService-Info.plist */,
-				A3372FDA28083D4700215B7A /* QuestionPage.swift */,
 			);
 			path = Capstone_EQuALS;
 			sourceTree = "<group>";
@@ -103,6 +114,13 @@
 				A3CE5B3527D73EB50040748A /* HistoryPage.swift */,
 				DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */,
 				DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */,
+				18B3B87D28198C43007C0E8C /* Exam.swift */,
+				18B3B87F28198C89007C0E8C /* Que.swift */,
+				18B3B88128198D36007C0E8C /* Polling.swift */,
+				18B3B88328198D4C007C0E8C /* ExamSummary.swift */,
+				18B3B88528198D66007C0E8C /* PollingSession.swift */,
+				18B3B88728198D79007C0E8C /* ExamPrograms.swift */,
+				18B3B88928198D98007C0E8C /* Create Exam.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,19 +213,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B3B87E28198C43007C0E8C /* Exam.swift in Sources */,
 				A3E89C1B281072EB00C2BFB3 /* FirebaseManager.swift in Sources */,
 				DEE5698127FCD58C004EE101 /* JoinSessionPage.swift in Sources */,
 				A3CE5B3427D73C9E0040748A /* PollingPage.swift in Sources */,
+				18B3B88428198D4C007C0E8C /* ExamSummary.swift in Sources */,
 				A3CE5B2E27D718160040748A /* mainView.swift in Sources */,
 				A39E64EA27D6DC8000563E84 /* loginPage.swift in Sources */,
+				18B3B88A28198D98007C0E8C /* Create Exam.swift in Sources */,
+				18B3B88028198C89007C0E8C /* Que.swift in Sources */,
 				DE6DBB5027FBB0D700AA8389 /* examHistory.swift in Sources */,
 				DEA212D427D7B57C00A5358A /* registerPage.swift in Sources */,
 				A3CE5B3027D71B370040748A /* HomePage.swift in Sources */,
 				A3CE5B3227D71FD00040748A /* ColorDictionary.swift in Sources */,
 				A3CE5B3627D73EB50040748A /* HistoryPage.swift in Sources */,
 				A39E64E827D6DC8000563E84 /* forMilestone4App.swift in Sources */,
+				18B3B88828198D79007C0E8C /* ExamPrograms.swift in Sources */,
+				18B3B88228198D36007C0E8C /* Polling.swift in Sources */,
 				A3E89C1D281092E900C2BFB3 /* Constants.swift in Sources */,
-				A3372FDB28083D4700215B7A /* QuestionPage.swift in Sources */,
+				18B3B88628198D66007C0E8C /* PollingSession.swift in Sources */,
 				A3CE5B3827D73F1D0040748A /* SettingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
